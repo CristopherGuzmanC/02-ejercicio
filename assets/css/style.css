@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
     body{
         margin: 0 auto;
     }
@@ -46,4 +47,6 @@
     .menu-nav > ul > li > a{
         color: white;
         text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+
     }
