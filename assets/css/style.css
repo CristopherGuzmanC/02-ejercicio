@@ -20,7 +20,6 @@
     .menu-principal{
         width: 60%;
         height: 120px;
-        background-color: blueviolet;
     }
     .logo-inst{
         width: 25%;
@@ -36,17 +35,45 @@
     }
     .menu-nav{
         float: right;
+        display: block;
+        width: 684px;
+        height: 120px;
     }
     .menu-nav > ul {
         list-style-type: none;
         overflow: hidden;
+        display: block;
+        width: 684px;
+        height: 85px;
+        padding-inline-start: 0px;
+        margin: 35px 0px 0px 0px;
     }
     .menu-nav > ul > li {
         float: left;
+        display: block;
     }
     .menu-nav > ul > li > a{
         color: white;
         text-decoration: none;
         font-family: 'Open Sans', sans-serif;
-
+        font-size: 20px;
+        display: block;
+    }
+    .barra{
+        -webkit-transform: translate(0px, 37%);
+        -ms-transform: translate(0px, 37%);
+        transform: translate(0px, 37%);
+        width: 160px;
+        color: #ffffff;
+        text-align: center;
+        border-style: solid;
+        border-width: 0px 1px 0px 1px;
+        -o-border-image: image("assets/img/borde4.png") 0 1 0 1 stretch;
+        border-image: image("assets/img/borde4.png") 0 1 0 1 stretch;
+    }
+    .primera{
+        border-width: 0px 1px 0px 0px !important;
+    }
+    .ultima{
+        border-width: 0px 0px 0px 1px !important;
     }
