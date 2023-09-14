@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
     body{
         margin: 0 auto;
+        font-family: 'Open Sans', sans-serif;
     }
-    header{
+    .cabezal{
         background-color: #0055b7;
         height: 120px;
     }
@@ -10,27 +11,20 @@
         margin: 0 auto;
         width: 1140px;
     }
+    .container-fluid{
+        width: 100%;
+        margin: auto;
+    }
     .row{
         display: flex;
     }
-    .logo{
-        width: 15%;
-        height: 120px;
-    }
-    .menu-principal{
-        width: 60%;
-        height: 120px;
-    }
-    .logo-inst{
-        width: 25%;
-        height: 120px;
-    }
+
     .img-principal{
-        margin: 25px;
         margin-left: 8px;
+        margin-top: 25px;
     }
     .img-inst{
-        margin: 30px;
+        margin-top: 30px;
         margin-left: 8px;
     }
     .menu-nav{
@@ -55,7 +49,6 @@
     .menu-nav > ul > li > a{
         color: white;
         text-decoration: none;
-        font-family: 'Open Sans', sans-serif;
         font-size: 20px;
         display: block;
     }
@@ -75,5 +68,62 @@
         border-width: 0px 1px 0px 0px !important;
     }
     .ultima{
-        border-width: 0px 0px 0px 1px !important;
+    border-width: 0px 0px 0px 1px !important;
     }
+
+    .col-1{
+        flex: 0 0 auto;
+        max-width: 8.333%;
+    }
+    .col-2{
+        flex: 0 0 auto;
+        max-width: 16.666667%;
+    }
+    .col-3{
+        flex: 0 0 auto;
+        max-width: 25%;
+    }
+    .col-4{
+        flex: 0 0 auto;
+        max-width: 33.3333333%;
+    }
+    .col-5{
+        flex: 0 0 auto;
+        max-width: 41.666667%;
+    }
+    .col-6{
+        flex: 0 0 auto;
+        max-width: 50%;
+    }
+    .col-7{
+        flex: 0 0 auto;
+        max-width: 58.333333%;
+    }
+    .col-8{
+        flex: 0 0 auto;
+        max-width: 66.6666667%;
+    }
+    .col-9{
+        flex: 0 0 auto;
+        max-width: 75%;
+    }
+    .col-10{
+        flex: 0 0 auto;
+        max-width: 83.3333333%;
+    }
+    .col-11{
+        flex: 0 0 auto;
+        max-width: 91.66667%;
+    }
+    .col-12{
+        flex: 0 0 auto;
+        max-width: 100%;
+    }
+    .slider-principal{
+        background-image: url("../img/portad-banco.jpg");
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
